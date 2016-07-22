@@ -1,0 +1,63 @@
+//
+//  PrefixHeader.pch
+//  23-彩票
+//
+//  Created by 曾嘉年 on 16/4/28.
+//  Copyright © 2016年 zengjianian. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
+
+
+#ifdef __OBJC__
+
+//自定义分类
+#import "UIImage+ZJNImage.h"
+#import "UIView+ZJNFrame.h"
+#import "UIView+ZJNView.h"
+#import "NSObject+ZJNObject.h"
+#import "UIBarButtonItem+ZJNBarButtonItem.h"
+#import "NSString+ZJNString.h"
+#import "NSDate+ZJNDate.h"
+#import "UIImageView+ZJNImageView.h"
+#import "UILabel+ZJNLabel.h"
+
+//全局常量
+#import "ZJNConst.h"
+
+//辅助窗口
+#import "ZJNTopWindow.h"
+
+//单利模式
+#import "ZJNSingleton.h"
+
+//自定义宏
+#define ZJNKeyWindow [UIApplication sharedApplication].keyWindow
+#define ZJNScreenBounds [UIScreen mainScreen].bounds
+#define ZJNScreenWidth [UIScreen mainScreen].bounds.size.width
+#define ZJNScreenHeight [UIScreen mainScreen].bounds.size.height
+#define ZJNScreenCenter CGPointMake(ZJNScreenWidth * 0.5, ZJNScreenHeight * 0.5)
+#define ZJNColor(r,g,b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+#define ZJNBackgroundColor ZJNColor(234, 234, 234)
+#define ZJNNavBarHeight CGRectGetMaxY(self.navigationController.navigationBar.frame)
+#define ZJNTabBarHeight self.tabBarController.tabBar.frame.size.height
+#define ZJNPublishTagFont [UIFont systemFontOfSize:15]
+#define MusicPlayer [ZJNMusicPlayer sharedMusicPlayer]
+#define VideoPlayer [ZJNVideoPlayer sharedVideoPlayer]
+
+//自定义调试打印
+#ifdef DEBUG
+#define ZJNLog(...) NSLog(__VA_ARGS__)
+#else
+#define ZJNLog(...)
+#endif
+
+#define ZJNLogFunc ZJNLog(@"%s",__func__)
+
+#endif

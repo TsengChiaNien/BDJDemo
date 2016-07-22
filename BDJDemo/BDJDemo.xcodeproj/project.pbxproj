@@ -1,0 +1,1430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A8FED9A1D41B57C0035F6A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A8FED991D41B57C0035F6A3 /* Images.xcassets */; };
+		7AAAF9161D41236D0018F1EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AAAF9141D41236D0018F1EB /* Main.storyboard */; };
+		7AAAF9181D41236D0018F1EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AAAF9171D41236D0018F1EB /* Assets.xcassets */; };
+		7AAAF91B1D41236D0018F1EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AAAF9191D41236D0018F1EB /* LaunchScreen.storyboard */; };
+		7AAAF9261D41236D0018F1EB /* BDJDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF9251D41236D0018F1EB /* BDJDemoTests.m */; };
+		7AAAF9311D41236D0018F1EB /* BDJDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF9301D41236D0018F1EB /* BDJDemoUITests.m */; };
+		7AAAF9F81D41247F0018F1EB /* ZJNCellSheetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF9421D41247F0018F1EB /* ZJNCellSheetController.m */; };
+		7AAAF9F91D41247F0018F1EB /* ZJNCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF9441D41247F0018F1EB /* ZJNCommentViewController.m */; };
+		7AAAF9FA1D41247F0018F1EB /* ZJNCommentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AAAF9451D41247F0018F1EB /* ZJNCommentViewController.xib */; };
+		7AAAF9FB1D41247F0018F1EB /* ZJNContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF9471D41247F0018F1EB /* ZJNContentViewController.m */; };
+		7AAAF9FC1D41247F0018F1EB /* ZJNEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF9491D41247F0018F1EB /* ZJNEssenceViewController.m */; };
+		7AAAF9FD1D41247F0018F1EB /* ZJNInformSheetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF94B1D41247F0018F1EB /* ZJNInformSheetController.m */; };
+		7AAAF9FE1D41247F0018F1EB /* ZJNMagnifyImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF94D1D41247F0018F1EB /* ZJNMagnifyImageViewController.m */; };
+		7AAAF9FF1D41247F0018F1EB /* ZJNMagnifyImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AAAF94E1D41247F0018F1EB /* ZJNMagnifyImageViewController.xib */; };
+		7AAAFA001D41247F0018F1EB /* ZJNRecommendTagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF9501D41247F0018F1EB /* ZJNRecommendTagViewController.m */; };
+		7AAAFA011D41247F0018F1EB /* ZJNComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF9531D41247F0018F1EB /* ZJNComment.m */; };
+		7AAAFA021D41247F0018F1EB /* ZJNCommentUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF9551D41247F0018F1EB /* ZJNCommentUser.m */; };
+		7AAAFA031D41247F0018F1EB /* ZJNContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF9571D41247F0018F1EB /* ZJNContent.m */; };
+		7AAAFA041D41247F0018F1EB /* ZJNContentInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF9591D41247F0018F1EB /* ZJNContentInfo.m */; };
+		7AAAFA051D41247F0018F1EB /* ZJNRecommendTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF95B1D41247F0018F1EB /* ZJNRecommendTag.m */; };
+		7AAAFA061D41247F0018F1EB /* ZJNCellImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF95E1D41247F0018F1EB /* ZJNCellImageView.m */; };
+		7AAAFA071D41247F0018F1EB /* ZJNCellImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AAAF95F1D41247F0018F1EB /* ZJNCellImageView.xib */; };
+		7AAAFA081D41247F0018F1EB /* ZJNCellVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF9611D41247F0018F1EB /* ZJNCellVideoView.m */; };
+		7AAAFA091D41247F0018F1EB /* ZJNCellVideoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AAAF9621D41247F0018F1EB /* ZJNCellVideoView.xib */; };
+		7AAAFA0A1D41247F0018F1EB /* ZJNCellVoiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF9651D41247F0018F1EB /* ZJNCellVoiceView.m */; };
+		7AAAFA0B1D41247F0018F1EB /* ZJNCellVoiceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AAAF9661D41247F0018F1EB /* ZJNCellVoiceView.xib */; };
+		7AAAFA0C1D41247F0018F1EB /* ZJNCommentViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF9681D41247F0018F1EB /* ZJNCommentViewCell.m */; };
+		7AAAFA0D1D41247F0018F1EB /* ZJNCommentViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AAAF9691D41247F0018F1EB /* ZJNCommentViewCell.xib */; };
+		7AAAFA0E1D41247F0018F1EB /* ZJNCommentViewHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF96B1D41247F0018F1EB /* ZJNCommentViewHeader.m */; };
+		7AAAFA0F1D41247F0018F1EB /* ZJNContentViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF96D1D41247F0018F1EB /* ZJNContentViewCell.m */; };
+		7AAAFA101D41247F0018F1EB /* ZJNContentViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AAAF96E1D41247F0018F1EB /* ZJNContentViewCell.xib */; };
+		7AAAFA111D41247F0018F1EB /* ZJNLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF9701D41247F0018F1EB /* ZJNLabel.m */; };
+		7AAAFA121D41247F0018F1EB /* ZJNProgressRing.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF9721D41247F0018F1EB /* ZJNProgressRing.m */; };
+		7AAAFA131D41247F0018F1EB /* ZJNRecommendTagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF9741D41247F0018F1EB /* ZJNRecommendTagCell.m */; };
+		7AAAFA141D41247F0018F1EB /* ZJNRecommendTagCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AAAF9751D41247F0018F1EB /* ZJNRecommendTagCell.xib */; };
+		7AAAFA151D41247F0018F1EB /* ZJNShareSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF9771D41247F0018F1EB /* ZJNShareSheet.m */; };
+		7AAAFA161D41247F0018F1EB /* ZJNShareSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AAAF9781D41247F0018F1EB /* ZJNShareSheet.xib */; };
+		7AAAFA171D41247F0018F1EB /* ZJNFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF97C1D41247F0018F1EB /* ZJNFriendTrendsViewController.m */; };
+		7AAAFA181D41247F0018F1EB /* ZJNFriendTrendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AAAF97D1D41247F0018F1EB /* ZJNFriendTrendsViewController.xib */; };
+		7AAAFA191D41247F0018F1EB /* ZJNLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF97F1D41247F0018F1EB /* ZJNLoginViewController.m */; };
+		7AAAFA1A1D41247F0018F1EB /* ZJNLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AAAF9801D41247F0018F1EB /* ZJNLoginViewController.xib */; };
+		7AAAFA1B1D41247F0018F1EB /* ZJNRecommendListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF9821D41247F0018F1EB /* ZJNRecommendListController.m */; };
+		7AAAFA1C1D41247F0018F1EB /* ZJNRecommendListController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AAAF9831D41247F0018F1EB /* ZJNRecommendListController.xib */; };
+		7AAAFA1D1D41247F0018F1EB /* ZJNRecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF9851D41247F0018F1EB /* ZJNRecommendViewController.m */; };
+		7AAAFA1E1D41247F0018F1EB /* ZJNRecommendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AAAF9861D41247F0018F1EB /* ZJNRecommendViewController.xib */; };
+		7AAAFA1F1D41247F0018F1EB /* ZJNCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF9891D41247F0018F1EB /* ZJNCategory.m */; };
+		7AAAFA201D41247F0018F1EB /* ZJNRecommendUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF98B1D41247F0018F1EB /* ZJNRecommendUser.m */; };
+		7AAAFA211D41247F0018F1EB /* ZJNCategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF98E1D41247F0018F1EB /* ZJNCategoryCell.m */; };
+		7AAAFA221D41247F0018F1EB /* ZJNCategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AAAF98F1D41247F0018F1EB /* ZJNCategoryCell.xib */; };
+		7AAAFA231D41247F0018F1EB /* ZJNRecommendListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF9911D41247F0018F1EB /* ZJNRecommendListCell.m */; };
+		7AAAFA241D41247F0018F1EB /* ZJNRecommendListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AAAF9921D41247F0018F1EB /* ZJNRecommendListCell.xib */; };
+		7AAAFA251D41247F0018F1EB /* ZJNTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF9941D41247F0018F1EB /* ZJNTextField.m */; };
+		7AAAFA261D41247F0018F1EB /* ZJNVerticalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF9961D41247F0018F1EB /* ZJNVerticalButton.m */; };
+		7AAAFA271D41247F0018F1EB /* ZJNAddTagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF99B1D41247F0018F1EB /* ZJNAddTagViewController.m */; };
+		7AAAFA281D41247F0018F1EB /* ZJNPublishStoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF99D1D41247F0018F1EB /* ZJNPublishStoryController.m */; };
+		7AAAFA291D41247F0018F1EB /* ZJNMainNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF99F1D41247F0018F1EB /* ZJNMainNavViewController.m */; };
+		7AAAFA2A1D41247F0018F1EB /* ZJNMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF9A11D41247F0018F1EB /* ZJNMainViewController.m */; };
+		7AAAFA2B1D41247F0018F1EB /* ZJNTopWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF9A31D41247F0018F1EB /* ZJNTopWindowController.m */; };
+		7AAAFA2C1D41247F0018F1EB /* ZJNPublishTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF9A81D41247F0018F1EB /* ZJNPublishTag.m */; };
+		7AAAFA2D1D41247F0018F1EB /* ZJNPublishTag.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AAAF9A91D41247F0018F1EB /* ZJNPublishTag.xib */; };
+		7AAAFA2E1D41247F0018F1EB /* ZJNPublishTagTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF9AB1D41247F0018F1EB /* ZJNPublishTagTextField.m */; };
+		7AAAFA2F1D41247F0018F1EB /* ZJNPublishToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF9AD1D41247F0018F1EB /* ZJNPublishToolBar.m */; };
+		7AAAFA301D41247F0018F1EB /* ZJNPublishToolBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AAAF9AE1D41247F0018F1EB /* ZJNPublishToolBar.xib */; };
+		7AAAFA311D41247F0018F1EB /* ZJNTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF9B01D41247F0018F1EB /* ZJNTextView.m */; };
+		7AAAFA321D41247F0018F1EB /* ZJNPublishView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF9B21D41247F0018F1EB /* ZJNPublishView.m */; };
+		7AAAFA331D41247F0018F1EB /* ZJNPublishView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AAAF9B31D41247F0018F1EB /* ZJNPublishView.xib */; };
+		7AAAFA341D41247F0018F1EB /* ZJNTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF9B51D41247F0018F1EB /* ZJNTabBar.m */; };
+		7AAAFA351D41247F0018F1EB /* ZJNTopWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF9B71D41247F0018F1EB /* ZJNTopWindow.m */; };
+		7AAAFA361D41247F0018F1EB /* ZJNMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF9BB1D41247F0018F1EB /* ZJNMeViewController.m */; };
+		7AAAFA371D41247F0018F1EB /* ZJNMeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AAAF9BC1D41247F0018F1EB /* ZJNMeViewController.xib */; };
+		7AAAFA381D41247F0018F1EB /* ZJNMineSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF9BE1D41247F0018F1EB /* ZJNMineSettingViewController.m */; };
+		7AAAFA391D41247F0018F1EB /* ZJNWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF9C01D41247F0018F1EB /* ZJNWebViewController.m */; };
+		7AAAFA3A1D41247F0018F1EB /* ZJNWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AAAF9C11D41247F0018F1EB /* ZJNWebViewController.xib */; };
+		7AAAFA3B1D41247F0018F1EB /* ZJNMineSetting.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7AAAF9C31D41247F0018F1EB /* ZJNMineSetting.plist */; };
+		7AAAFA3C1D41247F0018F1EB /* ZJNSquare.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF9C51D41247F0018F1EB /* ZJNSquare.m */; };
+		7AAAFA3D1D41247F0018F1EB /* ZJNCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF9C81D41247F0018F1EB /* ZJNCollectionViewCell.m */; };
+		7AAAFA3E1D41247F0018F1EB /* ZJNMeViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF9CA1D41247F0018F1EB /* ZJNMeViewCell.m */; };
+		7AAAFA3F1D41247F0018F1EB /* ZJNAllTagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF9CE1D41247F0018F1EB /* ZJNAllTagViewController.m */; };
+		7AAAFA401D41247F0018F1EB /* ZJNNewContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF9D01D41247F0018F1EB /* ZJNNewContentViewController.m */; };
+		7AAAFA411D41247F0018F1EB /* ZJNNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF9D21D41247F0018F1EB /* ZJNNewViewController.m */; };
+		7AAAFA421D41247F0018F1EB /* ZJNNewFeatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF9D81D41247F0018F1EB /* ZJNNewFeatureViewController.m */; };
+		7AAAFA431D41247F0018F1EB /* ZJNPushingGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF9DC1D41247F0018F1EB /* ZJNPushingGuideView.m */; };
+		7AAAFA441D41247F0018F1EB /* ZJNPushingGuideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AAAF9DD1D41247F0018F1EB /* ZJNPushingGuideView.xib */; };
+		7AAAFA451D41247F0018F1EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF9E01D41247F0018F1EB /* AppDelegate.m */; };
+		7AAAFA461D41247F0018F1EB /* NSDate+ZJNDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF9E31D41247F0018F1EB /* NSDate+ZJNDate.m */; };
+		7AAAFA471D41247F0018F1EB /* NSObject+ZJNObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF9E51D41247F0018F1EB /* NSObject+ZJNObject.m */; };
+		7AAAFA481D41247F0018F1EB /* NSString+ZJNString.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF9E71D41247F0018F1EB /* NSString+ZJNString.m */; };
+		7AAAFA491D41247F0018F1EB /* UIBarButtonItem+ZJNBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF9E91D41247F0018F1EB /* UIBarButtonItem+ZJNBarButtonItem.m */; };
+		7AAAFA4A1D41247F0018F1EB /* UIImage+ZJNImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF9EB1D41247F0018F1EB /* UIImage+ZJNImage.m */; };
+		7AAAFA4B1D41247F0018F1EB /* UIImageView+ZJNImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF9ED1D41247F0018F1EB /* UIImageView+ZJNImageView.m */; };
+		7AAAFA4C1D41247F0018F1EB /* UILabel+ZJNLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF9EF1D41247F0018F1EB /* UILabel+ZJNLabel.m */; };
+		7AAAFA4D1D41247F0018F1EB /* UIView+ZJNFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF9F11D41247F0018F1EB /* UIView+ZJNFrame.m */; };
+		7AAAFA4E1D41247F0018F1EB /* UIView+ZJNView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF9F31D41247F0018F1EB /* UIView+ZJNView.m */; };
+		7AAAFA4F1D41247F0018F1EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF9F41D41247F0018F1EB /* main.m */; };
+		7AAAFA501D41247F0018F1EB /* ZJNConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAF9F61D41247F0018F1EB /* ZJNConst.m */; };
+		7AAAFA531D41248E0018F1EB /* transition.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AAAFA521D41248E0018F1EB /* transition.png */; };
+		7AAAFA661D4124A00018F1EB /* ZJNGuideTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAFA571D4124A00018F1EB /* ZJNGuideTool.m */; };
+		7AAAFA671D4124A00018F1EB /* ZJNMusicPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAFA5A1D4124A00018F1EB /* ZJNMusicPlayer.m */; };
+		7AAAFA681D4124A00018F1EB /* ZJNRenderTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAFA5D1D4124A00018F1EB /* ZJNRenderTool.m */; };
+		7AAAFA691D4124A00018F1EB /* ZJNSaveTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAFA601D4124A00018F1EB /* ZJNSaveTool.m */; };
+		7AAAFA6A1D4124A00018F1EB /* ZJNVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAFA651D4124A00018F1EB /* ZJNVideoPlayer.m */; };
+		9A950BE8F2438943CDC57FD3 /* libPods-BDJDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78EF51397F90F1C814BEFF42 /* libPods-BDJDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7AAAF9221D41236D0018F1EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AAAF9001D41236D0018F1EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AAAF9071D41236D0018F1EB;
+			remoteInfo = BDJDemo;
+		};
+		7AAAF92D1D41236D0018F1EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AAAF9001D41236D0018F1EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AAAF9071D41236D0018F1EB;
+			remoteInfo = BDJDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6D36EDCE44FAE68580E93053 /* Pods-BDJDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BDJDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BDJDemo/Pods-BDJDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		78EF51397F90F1C814BEFF42 /* libPods-BDJDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BDJDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A8FED991D41B57C0035F6A3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7AAAF9081D41236D0018F1EB /* BDJDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BDJDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AAAF9151D41236D0018F1EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7AAAF9171D41236D0018F1EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7AAAF91A1D41236D0018F1EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7AAAF91C1D41236D0018F1EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AAAF9211D41236D0018F1EB /* BDJDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BDJDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AAAF9251D41236D0018F1EB /* BDJDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDJDemoTests.m; sourceTree = "<group>"; };
+		7AAAF9271D41236D0018F1EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AAAF92C1D41236D0018F1EB /* BDJDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BDJDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AAAF9301D41236D0018F1EB /* BDJDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDJDemoUITests.m; sourceTree = "<group>"; };
+		7AAAF9321D41236D0018F1EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AAAF9411D41247F0018F1EB /* ZJNCellSheetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNCellSheetController.h; sourceTree = "<group>"; };
+		7AAAF9421D41247F0018F1EB /* ZJNCellSheetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNCellSheetController.m; sourceTree = "<group>"; };
+		7AAAF9431D41247F0018F1EB /* ZJNCommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNCommentViewController.h; sourceTree = "<group>"; };
+		7AAAF9441D41247F0018F1EB /* ZJNCommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNCommentViewController.m; sourceTree = "<group>"; };
+		7AAAF9451D41247F0018F1EB /* ZJNCommentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZJNCommentViewController.xib; sourceTree = "<group>"; };
+		7AAAF9461D41247F0018F1EB /* ZJNContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNContentViewController.h; sourceTree = "<group>"; };
+		7AAAF9471D41247F0018F1EB /* ZJNContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNContentViewController.m; sourceTree = "<group>"; };
+		7AAAF9481D41247F0018F1EB /* ZJNEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNEssenceViewController.h; sourceTree = "<group>"; };
+		7AAAF9491D41247F0018F1EB /* ZJNEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNEssenceViewController.m; sourceTree = "<group>"; };
+		7AAAF94A1D41247F0018F1EB /* ZJNInformSheetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNInformSheetController.h; sourceTree = "<group>"; };
+		7AAAF94B1D41247F0018F1EB /* ZJNInformSheetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNInformSheetController.m; sourceTree = "<group>"; };
+		7AAAF94C1D41247F0018F1EB /* ZJNMagnifyImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNMagnifyImageViewController.h; sourceTree = "<group>"; };
+		7AAAF94D1D41247F0018F1EB /* ZJNMagnifyImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNMagnifyImageViewController.m; sourceTree = "<group>"; };
+		7AAAF94E1D41247F0018F1EB /* ZJNMagnifyImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZJNMagnifyImageViewController.xib; sourceTree = "<group>"; };
+		7AAAF94F1D41247F0018F1EB /* ZJNRecommendTagViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNRecommendTagViewController.h; sourceTree = "<group>"; };
+		7AAAF9501D41247F0018F1EB /* ZJNRecommendTagViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNRecommendTagViewController.m; sourceTree = "<group>"; };
+		7AAAF9521D41247F0018F1EB /* ZJNComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNComment.h; sourceTree = "<group>"; };
+		7AAAF9531D41247F0018F1EB /* ZJNComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNComment.m; sourceTree = "<group>"; };
+		7AAAF9541D41247F0018F1EB /* ZJNCommentUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNCommentUser.h; sourceTree = "<group>"; };
+		7AAAF9551D41247F0018F1EB /* ZJNCommentUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNCommentUser.m; sourceTree = "<group>"; };
+		7AAAF9561D41247F0018F1EB /* ZJNContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNContent.h; sourceTree = "<group>"; };
+		7AAAF9571D41247F0018F1EB /* ZJNContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNContent.m; sourceTree = "<group>"; };
+		7AAAF9581D41247F0018F1EB /* ZJNContentInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNContentInfo.h; sourceTree = "<group>"; };
+		7AAAF9591D41247F0018F1EB /* ZJNContentInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNContentInfo.m; sourceTree = "<group>"; };
+		7AAAF95A1D41247F0018F1EB /* ZJNRecommendTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNRecommendTag.h; sourceTree = "<group>"; };
+		7AAAF95B1D41247F0018F1EB /* ZJNRecommendTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNRecommendTag.m; sourceTree = "<group>"; };
+		7AAAF95D1D41247F0018F1EB /* ZJNCellImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNCellImageView.h; sourceTree = "<group>"; };
+		7AAAF95E1D41247F0018F1EB /* ZJNCellImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNCellImageView.m; sourceTree = "<group>"; };
+		7AAAF95F1D41247F0018F1EB /* ZJNCellImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZJNCellImageView.xib; sourceTree = "<group>"; };
+		7AAAF9601D41247F0018F1EB /* ZJNCellVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNCellVideoView.h; sourceTree = "<group>"; };
+		7AAAF9611D41247F0018F1EB /* ZJNCellVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNCellVideoView.m; sourceTree = "<group>"; };
+		7AAAF9621D41247F0018F1EB /* ZJNCellVideoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZJNCellVideoView.xib; sourceTree = "<group>"; };
+		7AAAF9641D41247F0018F1EB /* ZJNCellVoiceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNCellVoiceView.h; sourceTree = "<group>"; };
+		7AAAF9651D41247F0018F1EB /* ZJNCellVoiceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNCellVoiceView.m; sourceTree = "<group>"; };
+		7AAAF9661D41247F0018F1EB /* ZJNCellVoiceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZJNCellVoiceView.xib; sourceTree = "<group>"; };
+		7AAAF9671D41247F0018F1EB /* ZJNCommentViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNCommentViewCell.h; sourceTree = "<group>"; };
+		7AAAF9681D41247F0018F1EB /* ZJNCommentViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNCommentViewCell.m; sourceTree = "<group>"; };
+		7AAAF9691D41247F0018F1EB /* ZJNCommentViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZJNCommentViewCell.xib; sourceTree = "<group>"; };
+		7AAAF96A1D41247F0018F1EB /* ZJNCommentViewHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNCommentViewHeader.h; sourceTree = "<group>"; };
+		7AAAF96B1D41247F0018F1EB /* ZJNCommentViewHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNCommentViewHeader.m; sourceTree = "<group>"; };
+		7AAAF96C1D41247F0018F1EB /* ZJNContentViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNContentViewCell.h; sourceTree = "<group>"; };
+		7AAAF96D1D41247F0018F1EB /* ZJNContentViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNContentViewCell.m; sourceTree = "<group>"; };
+		7AAAF96E1D41247F0018F1EB /* ZJNContentViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZJNContentViewCell.xib; sourceTree = "<group>"; };
+		7AAAF96F1D41247F0018F1EB /* ZJNLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNLabel.h; sourceTree = "<group>"; };
+		7AAAF9701D41247F0018F1EB /* ZJNLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNLabel.m; sourceTree = "<group>"; };
+		7AAAF9711D41247F0018F1EB /* ZJNProgressRing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNProgressRing.h; sourceTree = "<group>"; };
+		7AAAF9721D41247F0018F1EB /* ZJNProgressRing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNProgressRing.m; sourceTree = "<group>"; };
+		7AAAF9731D41247F0018F1EB /* ZJNRecommendTagCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNRecommendTagCell.h; sourceTree = "<group>"; };
+		7AAAF9741D41247F0018F1EB /* ZJNRecommendTagCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNRecommendTagCell.m; sourceTree = "<group>"; };
+		7AAAF9751D41247F0018F1EB /* ZJNRecommendTagCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZJNRecommendTagCell.xib; sourceTree = "<group>"; };
+		7AAAF9761D41247F0018F1EB /* ZJNShareSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNShareSheet.h; sourceTree = "<group>"; };
+		7AAAF9771D41247F0018F1EB /* ZJNShareSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNShareSheet.m; sourceTree = "<group>"; };
+		7AAAF9781D41247F0018F1EB /* ZJNShareSheet.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZJNShareSheet.xib; sourceTree = "<group>"; };
+		7AAAF97B1D41247F0018F1EB /* ZJNFriendTrendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNFriendTrendsViewController.h; sourceTree = "<group>"; };
+		7AAAF97C1D41247F0018F1EB /* ZJNFriendTrendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNFriendTrendsViewController.m; sourceTree = "<group>"; };
+		7AAAF97D1D41247F0018F1EB /* ZJNFriendTrendsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZJNFriendTrendsViewController.xib; sourceTree = "<group>"; };
+		7AAAF97E1D41247F0018F1EB /* ZJNLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNLoginViewController.h; sourceTree = "<group>"; };
+		7AAAF97F1D41247F0018F1EB /* ZJNLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNLoginViewController.m; sourceTree = "<group>"; };
+		7AAAF9801D41247F0018F1EB /* ZJNLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZJNLoginViewController.xib; sourceTree = "<group>"; };
+		7AAAF9811D41247F0018F1EB /* ZJNRecommendListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNRecommendListController.h; sourceTree = "<group>"; };
+		7AAAF9821D41247F0018F1EB /* ZJNRecommendListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNRecommendListController.m; sourceTree = "<group>"; };
+		7AAAF9831D41247F0018F1EB /* ZJNRecommendListController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZJNRecommendListController.xib; sourceTree = "<group>"; };
+		7AAAF9841D41247F0018F1EB /* ZJNRecommendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNRecommendViewController.h; sourceTree = "<group>"; };
+		7AAAF9851D41247F0018F1EB /* ZJNRecommendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNRecommendViewController.m; sourceTree = "<group>"; };
+		7AAAF9861D41247F0018F1EB /* ZJNRecommendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZJNRecommendViewController.xib; sourceTree = "<group>"; };
+		7AAAF9881D41247F0018F1EB /* ZJNCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNCategory.h; sourceTree = "<group>"; };
+		7AAAF9891D41247F0018F1EB /* ZJNCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNCategory.m; sourceTree = "<group>"; };
+		7AAAF98A1D41247F0018F1EB /* ZJNRecommendUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNRecommendUser.h; sourceTree = "<group>"; };
+		7AAAF98B1D41247F0018F1EB /* ZJNRecommendUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNRecommendUser.m; sourceTree = "<group>"; };
+		7AAAF98D1D41247F0018F1EB /* ZJNCategoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNCategoryCell.h; sourceTree = "<group>"; };
+		7AAAF98E1D41247F0018F1EB /* ZJNCategoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNCategoryCell.m; sourceTree = "<group>"; };
+		7AAAF98F1D41247F0018F1EB /* ZJNCategoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZJNCategoryCell.xib; sourceTree = "<group>"; };
+		7AAAF9901D41247F0018F1EB /* ZJNRecommendListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNRecommendListCell.h; sourceTree = "<group>"; };
+		7AAAF9911D41247F0018F1EB /* ZJNRecommendListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNRecommendListCell.m; sourceTree = "<group>"; };
+		7AAAF9921D41247F0018F1EB /* ZJNRecommendListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZJNRecommendListCell.xib; sourceTree = "<group>"; };
+		7AAAF9931D41247F0018F1EB /* ZJNTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNTextField.h; sourceTree = "<group>"; };
+		7AAAF9941D41247F0018F1EB /* ZJNTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNTextField.m; sourceTree = "<group>"; };
+		7AAAF9951D41247F0018F1EB /* ZJNVerticalButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNVerticalButton.h; sourceTree = "<group>"; };
+		7AAAF9961D41247F0018F1EB /* ZJNVerticalButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNVerticalButton.m; sourceTree = "<group>"; };
+		7AAAF99A1D41247F0018F1EB /* ZJNAddTagViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNAddTagViewController.h; sourceTree = "<group>"; };
+		7AAAF99B1D41247F0018F1EB /* ZJNAddTagViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNAddTagViewController.m; sourceTree = "<group>"; };
+		7AAAF99C1D41247F0018F1EB /* ZJNPublishStoryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNPublishStoryController.h; sourceTree = "<group>"; };
+		7AAAF99D1D41247F0018F1EB /* ZJNPublishStoryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNPublishStoryController.m; sourceTree = "<group>"; };
+		7AAAF99E1D41247F0018F1EB /* ZJNMainNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNMainNavViewController.h; sourceTree = "<group>"; };
+		7AAAF99F1D41247F0018F1EB /* ZJNMainNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNMainNavViewController.m; sourceTree = "<group>"; };
+		7AAAF9A01D41247F0018F1EB /* ZJNMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNMainViewController.h; sourceTree = "<group>"; };
+		7AAAF9A11D41247F0018F1EB /* ZJNMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNMainViewController.m; sourceTree = "<group>"; };
+		7AAAF9A21D41247F0018F1EB /* ZJNTopWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNTopWindowController.h; sourceTree = "<group>"; };
+		7AAAF9A31D41247F0018F1EB /* ZJNTopWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNTopWindowController.m; sourceTree = "<group>"; };
+		7AAAF9A71D41247F0018F1EB /* ZJNPublishTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNPublishTag.h; sourceTree = "<group>"; };
+		7AAAF9A81D41247F0018F1EB /* ZJNPublishTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNPublishTag.m; sourceTree = "<group>"; };
+		7AAAF9A91D41247F0018F1EB /* ZJNPublishTag.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZJNPublishTag.xib; sourceTree = "<group>"; };
+		7AAAF9AA1D41247F0018F1EB /* ZJNPublishTagTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNPublishTagTextField.h; sourceTree = "<group>"; };
+		7AAAF9AB1D41247F0018F1EB /* ZJNPublishTagTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNPublishTagTextField.m; sourceTree = "<group>"; };
+		7AAAF9AC1D41247F0018F1EB /* ZJNPublishToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNPublishToolBar.h; sourceTree = "<group>"; };
+		7AAAF9AD1D41247F0018F1EB /* ZJNPublishToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNPublishToolBar.m; sourceTree = "<group>"; };
+		7AAAF9AE1D41247F0018F1EB /* ZJNPublishToolBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZJNPublishToolBar.xib; sourceTree = "<group>"; };
+		7AAAF9AF1D41247F0018F1EB /* ZJNTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNTextView.h; sourceTree = "<group>"; };
+		7AAAF9B01D41247F0018F1EB /* ZJNTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNTextView.m; sourceTree = "<group>"; };
+		7AAAF9B11D41247F0018F1EB /* ZJNPublishView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNPublishView.h; sourceTree = "<group>"; };
+		7AAAF9B21D41247F0018F1EB /* ZJNPublishView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNPublishView.m; sourceTree = "<group>"; };
+		7AAAF9B31D41247F0018F1EB /* ZJNPublishView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZJNPublishView.xib; sourceTree = "<group>"; };
+		7AAAF9B41D41247F0018F1EB /* ZJNTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNTabBar.h; sourceTree = "<group>"; };
+		7AAAF9B51D41247F0018F1EB /* ZJNTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNTabBar.m; sourceTree = "<group>"; };
+		7AAAF9B61D41247F0018F1EB /* ZJNTopWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNTopWindow.h; sourceTree = "<group>"; };
+		7AAAF9B71D41247F0018F1EB /* ZJNTopWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNTopWindow.m; sourceTree = "<group>"; };
+		7AAAF9BA1D41247F0018F1EB /* ZJNMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNMeViewController.h; sourceTree = "<group>"; };
+		7AAAF9BB1D41247F0018F1EB /* ZJNMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNMeViewController.m; sourceTree = "<group>"; };
+		7AAAF9BC1D41247F0018F1EB /* ZJNMeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZJNMeViewController.xib; sourceTree = "<group>"; };
+		7AAAF9BD1D41247F0018F1EB /* ZJNMineSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNMineSettingViewController.h; sourceTree = "<group>"; };
+		7AAAF9BE1D41247F0018F1EB /* ZJNMineSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNMineSettingViewController.m; sourceTree = "<group>"; };
+		7AAAF9BF1D41247F0018F1EB /* ZJNWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNWebViewController.h; sourceTree = "<group>"; };
+		7AAAF9C01D41247F0018F1EB /* ZJNWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNWebViewController.m; sourceTree = "<group>"; };
+		7AAAF9C11D41247F0018F1EB /* ZJNWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZJNWebViewController.xib; sourceTree = "<group>"; };
+		7AAAF9C31D41247F0018F1EB /* ZJNMineSetting.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ZJNMineSetting.plist; sourceTree = "<group>"; };
+		7AAAF9C41D41247F0018F1EB /* ZJNSquare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNSquare.h; sourceTree = "<group>"; };
+		7AAAF9C51D41247F0018F1EB /* ZJNSquare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNSquare.m; sourceTree = "<group>"; };
+		7AAAF9C71D41247F0018F1EB /* ZJNCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNCollectionViewCell.h; sourceTree = "<group>"; };
+		7AAAF9C81D41247F0018F1EB /* ZJNCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNCollectionViewCell.m; sourceTree = "<group>"; };
+		7AAAF9C91D41247F0018F1EB /* ZJNMeViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNMeViewCell.h; sourceTree = "<group>"; };
+		7AAAF9CA1D41247F0018F1EB /* ZJNMeViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNMeViewCell.m; sourceTree = "<group>"; };
+		7AAAF9CD1D41247F0018F1EB /* ZJNAllTagViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNAllTagViewController.h; sourceTree = "<group>"; };
+		7AAAF9CE1D41247F0018F1EB /* ZJNAllTagViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNAllTagViewController.m; sourceTree = "<group>"; };
+		7AAAF9CF1D41247F0018F1EB /* ZJNNewContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNNewContentViewController.h; sourceTree = "<group>"; };
+		7AAAF9D01D41247F0018F1EB /* ZJNNewContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNNewContentViewController.m; sourceTree = "<group>"; };
+		7AAAF9D11D41247F0018F1EB /* ZJNNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNNewViewController.h; sourceTree = "<group>"; };
+		7AAAF9D21D41247F0018F1EB /* ZJNNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNNewViewController.m; sourceTree = "<group>"; };
+		7AAAF9D71D41247F0018F1EB /* ZJNNewFeatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNNewFeatureViewController.h; sourceTree = "<group>"; };
+		7AAAF9D81D41247F0018F1EB /* ZJNNewFeatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNNewFeatureViewController.m; sourceTree = "<group>"; };
+		7AAAF9DB1D41247F0018F1EB /* ZJNPushingGuideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNPushingGuideView.h; sourceTree = "<group>"; };
+		7AAAF9DC1D41247F0018F1EB /* ZJNPushingGuideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNPushingGuideView.m; sourceTree = "<group>"; };
+		7AAAF9DD1D41247F0018F1EB /* ZJNPushingGuideView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZJNPushingGuideView.xib; sourceTree = "<group>"; };
+		7AAAF9DF1D41247F0018F1EB /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7AAAF9E01D41247F0018F1EB /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7AAAF9E21D41247F0018F1EB /* NSDate+ZJNDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+ZJNDate.h"; sourceTree = "<group>"; };
+		7AAAF9E31D41247F0018F1EB /* NSDate+ZJNDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+ZJNDate.m"; sourceTree = "<group>"; };
+		7AAAF9E41D41247F0018F1EB /* NSObject+ZJNObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ZJNObject.h"; sourceTree = "<group>"; };
+		7AAAF9E51D41247F0018F1EB /* NSObject+ZJNObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ZJNObject.m"; sourceTree = "<group>"; };
+		7AAAF9E61D41247F0018F1EB /* NSString+ZJNString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ZJNString.h"; sourceTree = "<group>"; };
+		7AAAF9E71D41247F0018F1EB /* NSString+ZJNString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZJNString.m"; sourceTree = "<group>"; };
+		7AAAF9E81D41247F0018F1EB /* UIBarButtonItem+ZJNBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+ZJNBarButtonItem.h"; sourceTree = "<group>"; };
+		7AAAF9E91D41247F0018F1EB /* UIBarButtonItem+ZJNBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+ZJNBarButtonItem.m"; sourceTree = "<group>"; };
+		7AAAF9EA1D41247F0018F1EB /* UIImage+ZJNImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ZJNImage.h"; sourceTree = "<group>"; };
+		7AAAF9EB1D41247F0018F1EB /* UIImage+ZJNImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ZJNImage.m"; sourceTree = "<group>"; };
+		7AAAF9EC1D41247F0018F1EB /* UIImageView+ZJNImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ZJNImageView.h"; sourceTree = "<group>"; };
+		7AAAF9ED1D41247F0018F1EB /* UIImageView+ZJNImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ZJNImageView.m"; sourceTree = "<group>"; };
+		7AAAF9EE1D41247F0018F1EB /* UILabel+ZJNLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ZJNLabel.h"; sourceTree = "<group>"; };
+		7AAAF9EF1D41247F0018F1EB /* UILabel+ZJNLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ZJNLabel.m"; sourceTree = "<group>"; };
+		7AAAF9F01D41247F0018F1EB /* UIView+ZJNFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZJNFrame.h"; sourceTree = "<group>"; };
+		7AAAF9F11D41247F0018F1EB /* UIView+ZJNFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZJNFrame.m"; sourceTree = "<group>"; };
+		7AAAF9F21D41247F0018F1EB /* UIView+ZJNView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZJNView.h"; sourceTree = "<group>"; };
+		7AAAF9F31D41247F0018F1EB /* UIView+ZJNView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZJNView.m"; sourceTree = "<group>"; };
+		7AAAF9F41D41247F0018F1EB /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7AAAF9F51D41247F0018F1EB /* ZJNConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNConst.h; sourceTree = "<group>"; };
+		7AAAF9F61D41247F0018F1EB /* ZJNConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNConst.m; sourceTree = "<group>"; };
+		7AAAF9F71D41247F0018F1EB /* ZJNPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNPrefixHeader.pch; sourceTree = "<group>"; };
+		7AAAFA521D41248E0018F1EB /* transition.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = transition.png; sourceTree = "<group>"; };
+		7AAAFA561D4124A00018F1EB /* ZJNGuideTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNGuideTool.h; sourceTree = "<group>"; };
+		7AAAFA571D4124A00018F1EB /* ZJNGuideTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNGuideTool.m; sourceTree = "<group>"; };
+		7AAAFA591D4124A00018F1EB /* ZJNMusicPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNMusicPlayer.h; sourceTree = "<group>"; };
+		7AAAFA5A1D4124A00018F1EB /* ZJNMusicPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNMusicPlayer.m; sourceTree = "<group>"; };
+		7AAAFA5C1D4124A00018F1EB /* ZJNRenderTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNRenderTool.h; sourceTree = "<group>"; };
+		7AAAFA5D1D4124A00018F1EB /* ZJNRenderTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNRenderTool.m; sourceTree = "<group>"; };
+		7AAAFA5F1D4124A00018F1EB /* ZJNSaveTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNSaveTool.h; sourceTree = "<group>"; };
+		7AAAFA601D4124A00018F1EB /* ZJNSaveTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNSaveTool.m; sourceTree = "<group>"; };
+		7AAAFA621D4124A00018F1EB /* ZJNSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNSingleton.h; sourceTree = "<group>"; };
+		7AAAFA641D4124A00018F1EB /* ZJNVideoPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNVideoPlayer.h; sourceTree = "<group>"; };
+		7AAAFA651D4124A00018F1EB /* ZJNVideoPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNVideoPlayer.m; sourceTree = "<group>"; };
+		88614F518ACE783E18880F9C /* Pods-BDJDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BDJDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-BDJDemo/Pods-BDJDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7AAAF9051D41236D0018F1EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A950BE8F2438943CDC57FD3 /* libPods-BDJDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AAAF91E1D41236D0018F1EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AAAF9291D41236D0018F1EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57B6990C093DD76F35845265 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78EF51397F90F1C814BEFF42 /* libPods-BDJDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7AAAF8FF1D41236D0018F1EB = {
+			isa = PBXGroup;
+			children = (
+				7AAAF90A1D41236D0018F1EB /* BDJDemo */,
+				7AAAF9241D41236D0018F1EB /* BDJDemoTests */,
+				7AAAF92F1D41236D0018F1EB /* BDJDemoUITests */,
+				7AAAF9091D41236D0018F1EB /* Products */,
+				AA8C4F3434A092DF92180AC5 /* Pods */,
+				57B6990C093DD76F35845265 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7AAAF9091D41236D0018F1EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AAAF9081D41236D0018F1EB /* BDJDemo.app */,
+				7AAAF9211D41236D0018F1EB /* BDJDemoTests.xctest */,
+				7AAAF92C1D41236D0018F1EB /* BDJDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7AAAF90A1D41236D0018F1EB /* BDJDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7AAAFA541D4124A00018F1EB /* Tools */,
+				7AAAF93E1D41247F0018F1EB /* Class */,
+				7AAAF9171D41236D0018F1EB /* Assets.xcassets */,
+				7AAAF90B1D41236D0018F1EB /* Supporting Files */,
+				7AAAF9141D41236D0018F1EB /* Main.storyboard */,
+				7AAAF9191D41236D0018F1EB /* LaunchScreen.storyboard */,
+				7AAAF91C1D41236D0018F1EB /* Info.plist */,
+				7A8FED991D41B57C0035F6A3 /* Images.xcassets */,
+			);
+			path = BDJDemo;
+			sourceTree = "<group>";
+		};
+		7AAAF90B1D41236D0018F1EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7AAAFA511D41248E0018F1EB /* image */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7AAAF9241D41236D0018F1EB /* BDJDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				7AAAF9251D41236D0018F1EB /* BDJDemoTests.m */,
+				7AAAF9271D41236D0018F1EB /* Info.plist */,
+			);
+			path = BDJDemoTests;
+			sourceTree = "<group>";
+		};
+		7AAAF92F1D41236D0018F1EB /* BDJDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7AAAF9301D41236D0018F1EB /* BDJDemoUITests.m */,
+				7AAAF9321D41236D0018F1EB /* Info.plist */,
+			);
+			path = BDJDemoUITests;
+			sourceTree = "<group>";
+		};
+		7AAAF93E1D41247F0018F1EB /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				7AAAF93F1D41247F0018F1EB /* Essence */,
+				7AAAF9791D41247F0018F1EB /* FriendTrends */,
+				7AAAF9971D41247F0018F1EB /* Main */,
+				7AAAF9B81D41247F0018F1EB /* Me */,
+				7AAAF9CB1D41247F0018F1EB /* New */,
+				7AAAF9D51D41247F0018F1EB /* NewFeature */,
+				7AAAF9DE1D41247F0018F1EB /* Other */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		7AAAF93F1D41247F0018F1EB /* Essence */ = {
+			isa = PBXGroup;
+			children = (
+				7AAAF9401D41247F0018F1EB /* Controller */,
+				7AAAF9511D41247F0018F1EB /* Model */,
+				7AAAF95C1D41247F0018F1EB /* View */,
+			);
+			path = Essence;
+			sourceTree = "<group>";
+		};
+		7AAAF9401D41247F0018F1EB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7AAAF9411D41247F0018F1EB /* ZJNCellSheetController.h */,
+				7AAAF9421D41247F0018F1EB /* ZJNCellSheetController.m */,
+				7AAAF9431D41247F0018F1EB /* ZJNCommentViewController.h */,
+				7AAAF9441D41247F0018F1EB /* ZJNCommentViewController.m */,
+				7AAAF9451D41247F0018F1EB /* ZJNCommentViewController.xib */,
+				7AAAF9461D41247F0018F1EB /* ZJNContentViewController.h */,
+				7AAAF9471D41247F0018F1EB /* ZJNContentViewController.m */,
+				7AAAF9481D41247F0018F1EB /* ZJNEssenceViewController.h */,
+				7AAAF9491D41247F0018F1EB /* ZJNEssenceViewController.m */,
+				7AAAF94A1D41247F0018F1EB /* ZJNInformSheetController.h */,
+				7AAAF94B1D41247F0018F1EB /* ZJNInformSheetController.m */,
+				7AAAF94C1D41247F0018F1EB /* ZJNMagnifyImageViewController.h */,
+				7AAAF94D1D41247F0018F1EB /* ZJNMagnifyImageViewController.m */,
+				7AAAF94E1D41247F0018F1EB /* ZJNMagnifyImageViewController.xib */,
+				7AAAF94F1D41247F0018F1EB /* ZJNRecommendTagViewController.h */,
+				7AAAF9501D41247F0018F1EB /* ZJNRecommendTagViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7AAAF9511D41247F0018F1EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7AAAF9521D41247F0018F1EB /* ZJNComment.h */,
+				7AAAF9531D41247F0018F1EB /* ZJNComment.m */,
+				7AAAF9541D41247F0018F1EB /* ZJNCommentUser.h */,
+				7AAAF9551D41247F0018F1EB /* ZJNCommentUser.m */,
+				7AAAF9561D41247F0018F1EB /* ZJNContent.h */,
+				7AAAF9571D41247F0018F1EB /* ZJNContent.m */,
+				7AAAF9581D41247F0018F1EB /* ZJNContentInfo.h */,
+				7AAAF9591D41247F0018F1EB /* ZJNContentInfo.m */,
+				7AAAF95A1D41247F0018F1EB /* ZJNRecommendTag.h */,
+				7AAAF95B1D41247F0018F1EB /* ZJNRecommendTag.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7AAAF95C1D41247F0018F1EB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7AAAF95D1D41247F0018F1EB /* ZJNCellImageView.h */,
+				7AAAF95E1D41247F0018F1EB /* ZJNCellImageView.m */,
+				7AAAF95F1D41247F0018F1EB /* ZJNCellImageView.xib */,
+				7AAAF9601D41247F0018F1EB /* ZJNCellVideoView.h */,
+				7AAAF9611D41247F0018F1EB /* ZJNCellVideoView.m */,
+				7AAAF9621D41247F0018F1EB /* ZJNCellVideoView.xib */,
+				7AAAF9631D41247F0018F1EB /* ZJNCellVoiceView */,
+				7AAAF9671D41247F0018F1EB /* ZJNCommentViewCell.h */,
+				7AAAF9681D41247F0018F1EB /* ZJNCommentViewCell.m */,
+				7AAAF9691D41247F0018F1EB /* ZJNCommentViewCell.xib */,
+				7AAAF96A1D41247F0018F1EB /* ZJNCommentViewHeader.h */,
+				7AAAF96B1D41247F0018F1EB /* ZJNCommentViewHeader.m */,
+				7AAAF96C1D41247F0018F1EB /* ZJNContentViewCell.h */,
+				7AAAF96D1D41247F0018F1EB /* ZJNContentViewCell.m */,
+				7AAAF96E1D41247F0018F1EB /* ZJNContentViewCell.xib */,
+				7AAAF96F1D41247F0018F1EB /* ZJNLabel.h */,
+				7AAAF9701D41247F0018F1EB /* ZJNLabel.m */,
+				7AAAF9711D41247F0018F1EB /* ZJNProgressRing.h */,
+				7AAAF9721D41247F0018F1EB /* ZJNProgressRing.m */,
+				7AAAF9731D41247F0018F1EB /* ZJNRecommendTagCell.h */,
+				7AAAF9741D41247F0018F1EB /* ZJNRecommendTagCell.m */,
+				7AAAF9751D41247F0018F1EB /* ZJNRecommendTagCell.xib */,
+				7AAAF9761D41247F0018F1EB /* ZJNShareSheet.h */,
+				7AAAF9771D41247F0018F1EB /* ZJNShareSheet.m */,
+				7AAAF9781D41247F0018F1EB /* ZJNShareSheet.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7AAAF9631D41247F0018F1EB /* ZJNCellVoiceView */ = {
+			isa = PBXGroup;
+			children = (
+				7AAAF9641D41247F0018F1EB /* ZJNCellVoiceView.h */,
+				7AAAF9651D41247F0018F1EB /* ZJNCellVoiceView.m */,
+				7AAAF9661D41247F0018F1EB /* ZJNCellVoiceView.xib */,
+			);
+			path = ZJNCellVoiceView;
+			sourceTree = "<group>";
+		};
+		7AAAF9791D41247F0018F1EB /* FriendTrends */ = {
+			isa = PBXGroup;
+			children = (
+				7AAAF97A1D41247F0018F1EB /* Controller */,
+				7AAAF9871D41247F0018F1EB /* Model */,
+				7AAAF98C1D41247F0018F1EB /* View */,
+			);
+			path = FriendTrends;
+			sourceTree = "<group>";
+		};
+		7AAAF97A1D41247F0018F1EB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7AAAF97B1D41247F0018F1EB /* ZJNFriendTrendsViewController.h */,
+				7AAAF97C1D41247F0018F1EB /* ZJNFriendTrendsViewController.m */,
+				7AAAF97D1D41247F0018F1EB /* ZJNFriendTrendsViewController.xib */,
+				7AAAF97E1D41247F0018F1EB /* ZJNLoginViewController.h */,
+				7AAAF97F1D41247F0018F1EB /* ZJNLoginViewController.m */,
+				7AAAF9801D41247F0018F1EB /* ZJNLoginViewController.xib */,
+				7AAAF9811D41247F0018F1EB /* ZJNRecommendListController.h */,
+				7AAAF9821D41247F0018F1EB /* ZJNRecommendListController.m */,
+				7AAAF9831D41247F0018F1EB /* ZJNRecommendListController.xib */,
+				7AAAF9841D41247F0018F1EB /* ZJNRecommendViewController.h */,
+				7AAAF9851D41247F0018F1EB /* ZJNRecommendViewController.m */,
+				7AAAF9861D41247F0018F1EB /* ZJNRecommendViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7AAAF9871D41247F0018F1EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7AAAF9881D41247F0018F1EB /* ZJNCategory.h */,
+				7AAAF9891D41247F0018F1EB /* ZJNCategory.m */,
+				7AAAF98A1D41247F0018F1EB /* ZJNRecommendUser.h */,
+				7AAAF98B1D41247F0018F1EB /* ZJNRecommendUser.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7AAAF98C1D41247F0018F1EB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7AAAF98D1D41247F0018F1EB /* ZJNCategoryCell.h */,
+				7AAAF98E1D41247F0018F1EB /* ZJNCategoryCell.m */,
+				7AAAF98F1D41247F0018F1EB /* ZJNCategoryCell.xib */,
+				7AAAF9901D41247F0018F1EB /* ZJNRecommendListCell.h */,
+				7AAAF9911D41247F0018F1EB /* ZJNRecommendListCell.m */,
+				7AAAF9921D41247F0018F1EB /* ZJNRecommendListCell.xib */,
+				7AAAF9931D41247F0018F1EB /* ZJNTextField.h */,
+				7AAAF9941D41247F0018F1EB /* ZJNTextField.m */,
+				7AAAF9951D41247F0018F1EB /* ZJNVerticalButton.h */,
+				7AAAF9961D41247F0018F1EB /* ZJNVerticalButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7AAAF9971D41247F0018F1EB /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				7AAAF9981D41247F0018F1EB /* Controller */,
+				7AAAF9A41D41247F0018F1EB /* Model */,
+				7AAAF9A51D41247F0018F1EB /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		7AAAF9981D41247F0018F1EB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7AAAF9991D41247F0018F1EB /* PublishSmallStory */,
+				7AAAF99E1D41247F0018F1EB /* ZJNMainNavViewController.h */,
+				7AAAF99F1D41247F0018F1EB /* ZJNMainNavViewController.m */,
+				7AAAF9A01D41247F0018F1EB /* ZJNMainViewController.h */,
+				7AAAF9A11D41247F0018F1EB /* ZJNMainViewController.m */,
+				7AAAF9A21D41247F0018F1EB /* ZJNTopWindowController.h */,
+				7AAAF9A31D41247F0018F1EB /* ZJNTopWindowController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7AAAF9991D41247F0018F1EB /* PublishSmallStory */ = {
+			isa = PBXGroup;
+			children = (
+				7AAAF99A1D41247F0018F1EB /* ZJNAddTagViewController.h */,
+				7AAAF99B1D41247F0018F1EB /* ZJNAddTagViewController.m */,
+				7AAAF99C1D41247F0018F1EB /* ZJNPublishStoryController.h */,
+				7AAAF99D1D41247F0018F1EB /* ZJNPublishStoryController.m */,
+			);
+			path = PublishSmallStory;
+			sourceTree = "<group>";
+		};
+		7AAAF9A41D41247F0018F1EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7AAAF9A51D41247F0018F1EB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7AAAF9A61D41247F0018F1EB /* PublishSmallStory */,
+				7AAAF9B11D41247F0018F1EB /* ZJNPublishView.h */,
+				7AAAF9B21D41247F0018F1EB /* ZJNPublishView.m */,
+				7AAAF9B31D41247F0018F1EB /* ZJNPublishView.xib */,
+				7AAAF9B41D41247F0018F1EB /* ZJNTabBar.h */,
+				7AAAF9B51D41247F0018F1EB /* ZJNTabBar.m */,
+				7AAAF9B61D41247F0018F1EB /* ZJNTopWindow.h */,
+				7AAAF9B71D41247F0018F1EB /* ZJNTopWindow.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7AAAF9A61D41247F0018F1EB /* PublishSmallStory */ = {
+			isa = PBXGroup;
+			children = (
+				7AAAF9A71D41247F0018F1EB /* ZJNPublishTag.h */,
+				7AAAF9A81D41247F0018F1EB /* ZJNPublishTag.m */,
+				7AAAF9A91D41247F0018F1EB /* ZJNPublishTag.xib */,
+				7AAAF9AA1D41247F0018F1EB /* ZJNPublishTagTextField.h */,
+				7AAAF9AB1D41247F0018F1EB /* ZJNPublishTagTextField.m */,
+				7AAAF9AC1D41247F0018F1EB /* ZJNPublishToolBar.h */,
+				7AAAF9AD1D41247F0018F1EB /* ZJNPublishToolBar.m */,
+				7AAAF9AE1D41247F0018F1EB /* ZJNPublishToolBar.xib */,
+				7AAAF9AF1D41247F0018F1EB /* ZJNTextView.h */,
+				7AAAF9B01D41247F0018F1EB /* ZJNTextView.m */,
+			);
+			path = PublishSmallStory;
+			sourceTree = "<group>";
+		};
+		7AAAF9B81D41247F0018F1EB /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				7AAAF9B91D41247F0018F1EB /* Controller */,
+				7AAAF9C21D41247F0018F1EB /* Model */,
+				7AAAF9C61D41247F0018F1EB /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		7AAAF9B91D41247F0018F1EB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7AAAF9BA1D41247F0018F1EB /* ZJNMeViewController.h */,
+				7AAAF9BB1D41247F0018F1EB /* ZJNMeViewController.m */,
+				7AAAF9BC1D41247F0018F1EB /* ZJNMeViewController.xib */,
+				7AAAF9BD1D41247F0018F1EB /* ZJNMineSettingViewController.h */,
+				7AAAF9BE1D41247F0018F1EB /* ZJNMineSettingViewController.m */,
+				7AAAF9BF1D41247F0018F1EB /* ZJNWebViewController.h */,
+				7AAAF9C01D41247F0018F1EB /* ZJNWebViewController.m */,
+				7AAAF9C11D41247F0018F1EB /* ZJNWebViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7AAAF9C21D41247F0018F1EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7AAAF9C31D41247F0018F1EB /* ZJNMineSetting.plist */,
+				7AAAF9C41D41247F0018F1EB /* ZJNSquare.h */,
+				7AAAF9C51D41247F0018F1EB /* ZJNSquare.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7AAAF9C61D41247F0018F1EB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7AAAF9C71D41247F0018F1EB /* ZJNCollectionViewCell.h */,
+				7AAAF9C81D41247F0018F1EB /* ZJNCollectionViewCell.m */,
+				7AAAF9C91D41247F0018F1EB /* ZJNMeViewCell.h */,
+				7AAAF9CA1D41247F0018F1EB /* ZJNMeViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7AAAF9CB1D41247F0018F1EB /* New */ = {
+			isa = PBXGroup;
+			children = (
+				7AAAF9CC1D41247F0018F1EB /* Controller */,
+				7AAAF9D31D41247F0018F1EB /* Model */,
+				7AAAF9D41D41247F0018F1EB /* View */,
+			);
+			path = New;
+			sourceTree = "<group>";
+		};
+		7AAAF9CC1D41247F0018F1EB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7AAAF9CD1D41247F0018F1EB /* ZJNAllTagViewController.h */,
+				7AAAF9CE1D41247F0018F1EB /* ZJNAllTagViewController.m */,
+				7AAAF9CF1D41247F0018F1EB /* ZJNNewContentViewController.h */,
+				7AAAF9D01D41247F0018F1EB /* ZJNNewContentViewController.m */,
+				7AAAF9D11D41247F0018F1EB /* ZJNNewViewController.h */,
+				7AAAF9D21D41247F0018F1EB /* ZJNNewViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7AAAF9D31D41247F0018F1EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7AAAF9D41D41247F0018F1EB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7AAAF9D51D41247F0018F1EB /* NewFeature */ = {
+			isa = PBXGroup;
+			children = (
+				7AAAF9D61D41247F0018F1EB /* Controller */,
+				7AAAF9D91D41247F0018F1EB /* Model */,
+				7AAAF9DA1D41247F0018F1EB /* View */,
+			);
+			path = NewFeature;
+			sourceTree = "<group>";
+		};
+		7AAAF9D61D41247F0018F1EB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7AAAF9D71D41247F0018F1EB /* ZJNNewFeatureViewController.h */,
+				7AAAF9D81D41247F0018F1EB /* ZJNNewFeatureViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7AAAF9D91D41247F0018F1EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7AAAF9DA1D41247F0018F1EB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7AAAF9DB1D41247F0018F1EB /* ZJNPushingGuideView.h */,
+				7AAAF9DC1D41247F0018F1EB /* ZJNPushingGuideView.m */,
+				7AAAF9DD1D41247F0018F1EB /* ZJNPushingGuideView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7AAAF9DE1D41247F0018F1EB /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				7AAAF9DF1D41247F0018F1EB /* AppDelegate.h */,
+				7AAAF9E01D41247F0018F1EB /* AppDelegate.m */,
+				7AAAF9E11D41247F0018F1EB /* Category */,
+				7AAAF9F41D41247F0018F1EB /* main.m */,
+				7AAAF9F51D41247F0018F1EB /* ZJNConst.h */,
+				7AAAF9F61D41247F0018F1EB /* ZJNConst.m */,
+				7AAAF9F71D41247F0018F1EB /* ZJNPrefixHeader.pch */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		7AAAF9E11D41247F0018F1EB /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				7AAAF9E21D41247F0018F1EB /* NSDate+ZJNDate.h */,
+				7AAAF9E31D41247F0018F1EB /* NSDate+ZJNDate.m */,
+				7AAAF9E41D41247F0018F1EB /* NSObject+ZJNObject.h */,
+				7AAAF9E51D41247F0018F1EB /* NSObject+ZJNObject.m */,
+				7AAAF9E61D41247F0018F1EB /* NSString+ZJNString.h */,
+				7AAAF9E71D41247F0018F1EB /* NSString+ZJNString.m */,
+				7AAAF9E81D41247F0018F1EB /* UIBarButtonItem+ZJNBarButtonItem.h */,
+				7AAAF9E91D41247F0018F1EB /* UIBarButtonItem+ZJNBarButtonItem.m */,
+				7AAAF9EA1D41247F0018F1EB /* UIImage+ZJNImage.h */,
+				7AAAF9EB1D41247F0018F1EB /* UIImage+ZJNImage.m */,
+				7AAAF9EC1D41247F0018F1EB /* UIImageView+ZJNImageView.h */,
+				7AAAF9ED1D41247F0018F1EB /* UIImageView+ZJNImageView.m */,
+				7AAAF9EE1D41247F0018F1EB /* UILabel+ZJNLabel.h */,
+				7AAAF9EF1D41247F0018F1EB /* UILabel+ZJNLabel.m */,
+				7AAAF9F01D41247F0018F1EB /* UIView+ZJNFrame.h */,
+				7AAAF9F11D41247F0018F1EB /* UIView+ZJNFrame.m */,
+				7AAAF9F21D41247F0018F1EB /* UIView+ZJNView.h */,
+				7AAAF9F31D41247F0018F1EB /* UIView+ZJNView.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		7AAAFA511D41248E0018F1EB /* image */ = {
+			isa = PBXGroup;
+			children = (
+				7AAAFA521D41248E0018F1EB /* transition.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		7AAAFA541D4124A00018F1EB /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				7AAAFA551D4124A00018F1EB /* Guide */,
+				7AAAFA581D4124A00018F1EB /* MusicPlayer */,
+				7AAAFA5B1D4124A00018F1EB /* Render */,
+				7AAAFA5E1D4124A00018F1EB /* Save */,
+				7AAAFA611D4124A00018F1EB /* Singleton */,
+				7AAAFA631D4124A00018F1EB /* VideoPlayer */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		7AAAFA551D4124A00018F1EB /* Guide */ = {
+			isa = PBXGroup;
+			children = (
+				7AAAFA561D4124A00018F1EB /* ZJNGuideTool.h */,
+				7AAAFA571D4124A00018F1EB /* ZJNGuideTool.m */,
+			);
+			path = Guide;
+			sourceTree = "<group>";
+		};
+		7AAAFA581D4124A00018F1EB /* MusicPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				7AAAFA591D4124A00018F1EB /* ZJNMusicPlayer.h */,
+				7AAAFA5A1D4124A00018F1EB /* ZJNMusicPlayer.m */,
+			);
+			path = MusicPlayer;
+			sourceTree = "<group>";
+		};
+		7AAAFA5B1D4124A00018F1EB /* Render */ = {
+			isa = PBXGroup;
+			children = (
+				7AAAFA5C1D4124A00018F1EB /* ZJNRenderTool.h */,
+				7AAAFA5D1D4124A00018F1EB /* ZJNRenderTool.m */,
+			);
+			path = Render;
+			sourceTree = "<group>";
+		};
+		7AAAFA5E1D4124A00018F1EB /* Save */ = {
+			isa = PBXGroup;
+			children = (
+				7AAAFA5F1D4124A00018F1EB /* ZJNSaveTool.h */,
+				7AAAFA601D4124A00018F1EB /* ZJNSaveTool.m */,
+			);
+			path = Save;
+			sourceTree = "<group>";
+		};
+		7AAAFA611D4124A00018F1EB /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				7AAAFA621D4124A00018F1EB /* ZJNSingleton.h */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
+		7AAAFA631D4124A00018F1EB /* VideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				7AAAFA641D4124A00018F1EB /* ZJNVideoPlayer.h */,
+				7AAAFA651D4124A00018F1EB /* ZJNVideoPlayer.m */,
+			);
+			path = VideoPlayer;
+			sourceTree = "<group>";
+		};
+		AA8C4F3434A092DF92180AC5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D36EDCE44FAE68580E93053 /* Pods-BDJDemo.debug.xcconfig */,
+				88614F518ACE783E18880F9C /* Pods-BDJDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7AAAF9071D41236D0018F1EB /* BDJDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AAAF9351D41236D0018F1EB /* Build configuration list for PBXNativeTarget "BDJDemo" */;
+			buildPhases = (
+				9D374FBBACF1239F5181DA2F /* [CP] Check Pods Manifest.lock */,
+				7AAAF9041D41236D0018F1EB /* Sources */,
+				7AAAF9051D41236D0018F1EB /* Frameworks */,
+				7AAAF9061D41236D0018F1EB /* Resources */,
+				9576DE7B23A39FF1288A7BB7 /* [CP] Embed Pods Frameworks */,
+				FCA5DD6959807F029208DAC1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BDJDemo;
+			productName = BDJDemo;
+			productReference = 7AAAF9081D41236D0018F1EB /* BDJDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7AAAF9201D41236D0018F1EB /* BDJDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AAAF9381D41236D0018F1EB /* Build configuration list for PBXNativeTarget "BDJDemoTests" */;
+			buildPhases = (
+				7AAAF91D1D41236D0018F1EB /* Sources */,
+				7AAAF91E1D41236D0018F1EB /* Frameworks */,
+				7AAAF91F1D41236D0018F1EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AAAF9231D41236D0018F1EB /* PBXTargetDependency */,
+			);
+			name = BDJDemoTests;
+			productName = BDJDemoTests;
+			productReference = 7AAAF9211D41236D0018F1EB /* BDJDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7AAAF92B1D41236D0018F1EB /* BDJDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AAAF93B1D41236D0018F1EB /* Build configuration list for PBXNativeTarget "BDJDemoUITests" */;
+			buildPhases = (
+				7AAAF9281D41236D0018F1EB /* Sources */,
+				7AAAF9291D41236D0018F1EB /* Frameworks */,
+				7AAAF92A1D41236D0018F1EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AAAF92E1D41236D0018F1EB /* PBXTargetDependency */,
+			);
+			name = BDJDemoUITests;
+			productName = BDJDemoUITests;
+			productReference = 7AAAF92C1D41236D0018F1EB /* BDJDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7AAAF9001D41236D0018F1EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = zengjianian;
+				TargetAttributes = {
+					7AAAF9071D41236D0018F1EB = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = P23RXB8566;
+					};
+					7AAAF9201D41236D0018F1EB = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = P23RXB8566;
+						TestTargetID = 7AAAF9071D41236D0018F1EB;
+					};
+					7AAAF92B1D41236D0018F1EB = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = P23RXB8566;
+						TestTargetID = 7AAAF9071D41236D0018F1EB;
+					};
+				};
+			};
+			buildConfigurationList = 7AAAF9031D41236D0018F1EB /* Build configuration list for PBXProject "BDJDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7AAAF8FF1D41236D0018F1EB;
+			productRefGroup = 7AAAF9091D41236D0018F1EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7AAAF9071D41236D0018F1EB /* BDJDemo */,
+				7AAAF9201D41236D0018F1EB /* BDJDemoTests */,
+				7AAAF92B1D41236D0018F1EB /* BDJDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7AAAF9061D41236D0018F1EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AAAFA0B1D41247F0018F1EB /* ZJNCellVoiceView.xib in Resources */,
+				7AAAFA441D41247F0018F1EB /* ZJNPushingGuideView.xib in Resources */,
+				7AAAFA1A1D41247F0018F1EB /* ZJNLoginViewController.xib in Resources */,
+				7AAAF91B1D41236D0018F1EB /* LaunchScreen.storyboard in Resources */,
+				7AAAFA181D41247F0018F1EB /* ZJNFriendTrendsViewController.xib in Resources */,
+				7AAAFA071D41247F0018F1EB /* ZJNCellImageView.xib in Resources */,
+				7AAAFA531D41248E0018F1EB /* transition.png in Resources */,
+				7AAAFA0D1D41247F0018F1EB /* ZJNCommentViewCell.xib in Resources */,
+				7AAAFA161D41247F0018F1EB /* ZJNShareSheet.xib in Resources */,
+				7A8FED9A1D41B57C0035F6A3 /* Images.xcassets in Resources */,
+				7AAAFA221D41247F0018F1EB /* ZJNCategoryCell.xib in Resources */,
+				7AAAFA141D41247F0018F1EB /* ZJNRecommendTagCell.xib in Resources */,
+				7AAAFA331D41247F0018F1EB /* ZJNPublishView.xib in Resources */,
+				7AAAFA1C1D41247F0018F1EB /* ZJNRecommendListController.xib in Resources */,
+				7AAAF9FA1D41247F0018F1EB /* ZJNCommentViewController.xib in Resources */,
+				7AAAFA3A1D41247F0018F1EB /* ZJNWebViewController.xib in Resources */,
+				7AAAFA241D41247F0018F1EB /* ZJNRecommendListCell.xib in Resources */,
+				7AAAFA1E1D41247F0018F1EB /* ZJNRecommendViewController.xib in Resources */,
+				7AAAFA3B1D41247F0018F1EB /* ZJNMineSetting.plist in Resources */,
+				7AAAFA101D41247F0018F1EB /* ZJNContentViewCell.xib in Resources */,
+				7AAAF9181D41236D0018F1EB /* Assets.xcassets in Resources */,
+				7AAAFA2D1D41247F0018F1EB /* ZJNPublishTag.xib in Resources */,
+				7AAAFA091D41247F0018F1EB /* ZJNCellVideoView.xib in Resources */,
+				7AAAF9161D41236D0018F1EB /* Main.storyboard in Resources */,
+				7AAAFA371D41247F0018F1EB /* ZJNMeViewController.xib in Resources */,
+				7AAAFA301D41247F0018F1EB /* ZJNPublishToolBar.xib in Resources */,
+				7AAAF9FF1D41247F0018F1EB /* ZJNMagnifyImageViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AAAF91F1D41236D0018F1EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AAAF92A1D41236D0018F1EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9576DE7B23A39FF1288A7BB7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BDJDemo/Pods-BDJDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D374FBBACF1239F5181DA2F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FCA5DD6959807F029208DAC1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BDJDemo/Pods-BDJDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7AAAF9041D41236D0018F1EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AAAFA001D41247F0018F1EB /* ZJNRecommendTagViewController.m in Sources */,
+				7AAAF9FC1D41247F0018F1EB /* ZJNEssenceViewController.m in Sources */,
+				7AAAFA031D41247F0018F1EB /* ZJNContent.m in Sources */,
+				7AAAFA661D4124A00018F1EB /* ZJNGuideTool.m in Sources */,
+				7AAAFA4C1D41247F0018F1EB /* UILabel+ZJNLabel.m in Sources */,
+				7AAAFA291D41247F0018F1EB /* ZJNMainNavViewController.m in Sources */,
+				7AAAFA021D41247F0018F1EB /* ZJNCommentUser.m in Sources */,
+				7AAAFA111D41247F0018F1EB /* ZJNLabel.m in Sources */,
+				7AAAFA051D41247F0018F1EB /* ZJNRecommendTag.m in Sources */,
+				7AAAFA341D41247F0018F1EB /* ZJNTabBar.m in Sources */,
+				7AAAFA4B1D41247F0018F1EB /* UIImageView+ZJNImageView.m in Sources */,
+				7AAAFA1B1D41247F0018F1EB /* ZJNRecommendListController.m in Sources */,
+				7AAAFA431D41247F0018F1EB /* ZJNPushingGuideView.m in Sources */,
+				7AAAFA3C1D41247F0018F1EB /* ZJNSquare.m in Sources */,
+				7AAAFA481D41247F0018F1EB /* NSString+ZJNString.m in Sources */,
+				7AAAFA2A1D41247F0018F1EB /* ZJNMainViewController.m in Sources */,
+				7AAAFA3E1D41247F0018F1EB /* ZJNMeViewCell.m in Sources */,
+				7AAAFA691D4124A00018F1EB /* ZJNSaveTool.m in Sources */,
+				7AAAFA461D41247F0018F1EB /* NSDate+ZJNDate.m in Sources */,
+				7AAAFA231D41247F0018F1EB /* ZJNRecommendListCell.m in Sources */,
+				7AAAFA151D41247F0018F1EB /* ZJNShareSheet.m in Sources */,
+				7AAAFA401D41247F0018F1EB /* ZJNNewContentViewController.m in Sources */,
+				7AAAF9F81D41247F0018F1EB /* ZJNCellSheetController.m in Sources */,
+				7AAAFA121D41247F0018F1EB /* ZJNProgressRing.m in Sources */,
+				7AAAFA491D41247F0018F1EB /* UIBarButtonItem+ZJNBarButtonItem.m in Sources */,
+				7AAAFA2C1D41247F0018F1EB /* ZJNPublishTag.m in Sources */,
+				7AAAFA0A1D41247F0018F1EB /* ZJNCellVoiceView.m in Sources */,
+				7AAAFA451D41247F0018F1EB /* AppDelegate.m in Sources */,
+				7AAAFA061D41247F0018F1EB /* ZJNCellImageView.m in Sources */,
+				7AAAFA1D1D41247F0018F1EB /* ZJNRecommendViewController.m in Sources */,
+				7AAAFA501D41247F0018F1EB /* ZJNConst.m in Sources */,
+				7AAAFA311D41247F0018F1EB /* ZJNTextView.m in Sources */,
+				7AAAFA3F1D41247F0018F1EB /* ZJNAllTagViewController.m in Sources */,
+				7AAAFA271D41247F0018F1EB /* ZJNAddTagViewController.m in Sources */,
+				7AAAF9FB1D41247F0018F1EB /* ZJNContentViewController.m in Sources */,
+				7AAAFA0F1D41247F0018F1EB /* ZJNContentViewCell.m in Sources */,
+				7AAAFA191D41247F0018F1EB /* ZJNLoginViewController.m in Sources */,
+				7AAAFA361D41247F0018F1EB /* ZJNMeViewController.m in Sources */,
+				7AAAFA131D41247F0018F1EB /* ZJNRecommendTagCell.m in Sources */,
+				7AAAFA251D41247F0018F1EB /* ZJNTextField.m in Sources */,
+				7AAAFA471D41247F0018F1EB /* NSObject+ZJNObject.m in Sources */,
+				7AAAFA011D41247F0018F1EB /* ZJNComment.m in Sources */,
+				7AAAFA0E1D41247F0018F1EB /* ZJNCommentViewHeader.m in Sources */,
+				7AAAF9FE1D41247F0018F1EB /* ZJNMagnifyImageViewController.m in Sources */,
+				7AAAFA321D41247F0018F1EB /* ZJNPublishView.m in Sources */,
+				7AAAFA3D1D41247F0018F1EB /* ZJNCollectionViewCell.m in Sources */,
+				7AAAFA261D41247F0018F1EB /* ZJNVerticalButton.m in Sources */,
+				7AAAFA4A1D41247F0018F1EB /* UIImage+ZJNImage.m in Sources */,
+				7AAAFA4D1D41247F0018F1EB /* UIView+ZJNFrame.m in Sources */,
+				7AAAFA6A1D4124A00018F1EB /* ZJNVideoPlayer.m in Sources */,
+				7AAAFA4E1D41247F0018F1EB /* UIView+ZJNView.m in Sources */,
+				7AAAFA351D41247F0018F1EB /* ZJNTopWindow.m in Sources */,
+				7AAAFA171D41247F0018F1EB /* ZJNFriendTrendsViewController.m in Sources */,
+				7AAAFA1F1D41247F0018F1EB /* ZJNCategory.m in Sources */,
+				7AAAFA421D41247F0018F1EB /* ZJNNewFeatureViewController.m in Sources */,
+				7AAAFA391D41247F0018F1EB /* ZJNWebViewController.m in Sources */,
+				7AAAFA681D4124A00018F1EB /* ZJNRenderTool.m in Sources */,
+				7AAAF9FD1D41247F0018F1EB /* ZJNInformSheetController.m in Sources */,
+				7AAAFA411D41247F0018F1EB /* ZJNNewViewController.m in Sources */,
+				7AAAFA081D41247F0018F1EB /* ZJNCellVideoView.m in Sources */,
+				7AAAFA2B1D41247F0018F1EB /* ZJNTopWindowController.m in Sources */,
+				7AAAFA201D41247F0018F1EB /* ZJNRecommendUser.m in Sources */,
+				7AAAFA041D41247F0018F1EB /* ZJNContentInfo.m in Sources */,
+				7AAAFA2F1D41247F0018F1EB /* ZJNPublishToolBar.m in Sources */,
+				7AAAFA281D41247F0018F1EB /* ZJNPublishStoryController.m in Sources */,
+				7AAAFA381D41247F0018F1EB /* ZJNMineSettingViewController.m in Sources */,
+				7AAAFA2E1D41247F0018F1EB /* ZJNPublishTagTextField.m in Sources */,
+				7AAAF9F91D41247F0018F1EB /* ZJNCommentViewController.m in Sources */,
+				7AAAFA211D41247F0018F1EB /* ZJNCategoryCell.m in Sources */,
+				7AAAFA4F1D41247F0018F1EB /* main.m in Sources */,
+				7AAAFA0C1D41247F0018F1EB /* ZJNCommentViewCell.m in Sources */,
+				7AAAFA671D4124A00018F1EB /* ZJNMusicPlayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AAAF91D1D41236D0018F1EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AAAF9261D41236D0018F1EB /* BDJDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AAAF9281D41236D0018F1EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AAAF9311D41236D0018F1EB /* BDJDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7AAAF9231D41236D0018F1EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AAAF9071D41236D0018F1EB /* BDJDemo */;
+			targetProxy = 7AAAF9221D41236D0018F1EB /* PBXContainerItemProxy */;
+		};
+		7AAAF92E1D41236D0018F1EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AAAF9071D41236D0018F1EB /* BDJDemo */;
+			targetProxy = 7AAAF92D1D41236D0018F1EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7AAAF9141D41236D0018F1EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AAAF9151D41236D0018F1EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7AAAF9191D41236D0018F1EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AAAF91A1D41236D0018F1EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7AAAF9331D41236D0018F1EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7AAAF9341D41236D0018F1EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7AAAF9361D41236D0018F1EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D36EDCE44FAE68580E93053 /* Pods-BDJDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PREFIX_HEADER = BDJDemo/Class/Other/ZJNPrefixHeader.pch;
+				INFOPLIST_FILE = BDJDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zengjianian.BDJDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7AAAF9371D41236D0018F1EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88614F518ACE783E18880F9C /* Pods-BDJDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PREFIX_HEADER = BDJDemo/Class/Other/ZJNPrefixHeader.pch;
+				INFOPLIST_FILE = BDJDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zengjianian.BDJDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		7AAAF9391D41236D0018F1EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BDJDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zengjianian.BDJDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BDJDemo.app/BDJDemo";
+			};
+			name = Debug;
+		};
+		7AAAF93A1D41236D0018F1EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BDJDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zengjianian.BDJDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BDJDemo.app/BDJDemo";
+			};
+			name = Release;
+		};
+		7AAAF93C1D41236D0018F1EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BDJDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zengjianian.BDJDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BDJDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7AAAF93D1D41236D0018F1EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BDJDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zengjianian.BDJDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BDJDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7AAAF9031D41236D0018F1EB /* Build configuration list for PBXProject "BDJDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AAAF9331D41236D0018F1EB /* Debug */,
+				7AAAF9341D41236D0018F1EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AAAF9351D41236D0018F1EB /* Build configuration list for PBXNativeTarget "BDJDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AAAF9361D41236D0018F1EB /* Debug */,
+				7AAAF9371D41236D0018F1EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AAAF9381D41236D0018F1EB /* Build configuration list for PBXNativeTarget "BDJDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AAAF9391D41236D0018F1EB /* Debug */,
+				7AAAF93A1D41236D0018F1EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AAAF93B1D41236D0018F1EB /* Build configuration list for PBXNativeTarget "BDJDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AAAF93C1D41236D0018F1EB /* Debug */,
+				7AAAF93D1D41236D0018F1EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7AAAF9001D41236D0018F1EB /* Project object */;
+}

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZJNWebViewController">
+            <connections>
+                <outlet property="backButton" destination="U89-G9-pZN" id="qgD-RP-NNf"/>
+                <outlet property="forwardButton" destination="mgW-fL-0yg" id="K7w-xP-3fm"/>
+                <outlet property="homepageButton" destination="RRk-K7-R47" id="A7A-Ig-cQf"/>
+                <outlet property="progressView" destination="u6c-yO-fSc" id="5SP-8m-WHN"/>
+                <outlet property="refreshButton" destination="K2P-h5-asV" id="Fic-di-g9u"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="webView" destination="8zg-Fn-Ras" id="SSM-E0-sFX"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <webView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8zg-Fn-Ras">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="551"/>
+                    <color key="backgroundColor" red="0.91764705882352937" green="0.91764705882352937" blue="0.91764705882352937" alpha="1" colorSpace="deviceRGB"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="Glr-Lq-al4"/>
+                    </connections>
+                </webView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="tabbar-light" translatesAutoresizingMaskIntoConstraints="NO" id="59u-5o-GP0">
+                    <rect key="frame" x="0.0" y="551" width="600" height="49"/>
+                </imageView>
+                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QDP-o5-0rU">
+                    <rect key="frame" x="0.0" y="551" width="600" height="49"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <items>
+                        <barButtonItem enabled="NO" image="vcWebBack" id="U89-G9-pZN">
+                            <connections>
+                                <action selector="backButtonClick:" destination="-1" id="Gd8-C1-pwO"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem enabled="NO" image="vcWebForward" id="mgW-fL-0yg">
+                            <connections>
+                                <action selector="forwardButtonClick:" destination="-1" id="AVs-cp-LLQ"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem systemItem="flexibleSpace" id="Uee-7W-ahi"/>
+                        <barButtonItem image="vcWebHome" id="RRk-K7-R47">
+                            <connections>
+                                <action selector="homepageButtonClick:" destination="-1" id="icc-YR-coh"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem systemItem="flexibleSpace" id="grA-KL-CVK"/>
+                        <barButtonItem image="vcWebRefresh" id="K2P-h5-asV">
+                            <connections>
+                                <action selector="refreshButtonClick:" destination="-1" id="S4o-2y-7dm"/>
+                            </connections>
+                        </barButtonItem>
+                    </items>
+                    <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                </toolbar>
+                <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="u6c-yO-fSc">
+                    <rect key="frame" x="0.0" y="64" width="600" height="2"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="2" id="00e-qs-IWF"/>
+                    </constraints>
+                    <color key="progressTintColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
+                </progressView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="59u-5o-GP0" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="0TG-tI-y28"/>
+                <constraint firstAttribute="trailing" secondItem="u6c-yO-fSc" secondAttribute="trailing" id="6Rk-sy-E6e"/>
+                <constraint firstItem="QDP-o5-0rU" firstAttribute="top" secondItem="8zg-Fn-Ras" secondAttribute="bottom" id="NEH-Ym-UEz"/>
+                <constraint firstItem="59u-5o-GP0" firstAttribute="height" secondItem="QDP-o5-0rU" secondAttribute="height" id="PfR-Pm-57r"/>
+                <constraint firstItem="u6c-yO-fSc" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="SSM-xj-mlo"/>
+                <constraint firstItem="8zg-Fn-Ras" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="cmg-Rf-qFc"/>
+                <constraint firstAttribute="trailing" secondItem="QDP-o5-0rU" secondAttribute="trailing" id="fva-mr-P98"/>
+                <constraint firstItem="QDP-o5-0rU" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="iK0-pD-FPY"/>
+                <constraint firstAttribute="bottom" secondItem="QDP-o5-0rU" secondAttribute="bottom" id="kkg-oZ-TmJ"/>
+                <constraint firstAttribute="bottom" secondItem="59u-5o-GP0" secondAttribute="bottom" id="nbh-Ao-mjU"/>
+                <constraint firstItem="u6c-yO-fSc" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="rah-sn-TCA"/>
+                <constraint firstAttribute="trailing" secondItem="8zg-Fn-Ras" secondAttribute="trailing" id="rfe-Q9-8Cz"/>
+                <constraint firstItem="8zg-Fn-Ras" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="urB-Ib-wej"/>
+                <constraint firstAttribute="trailing" secondItem="59u-5o-GP0" secondAttribute="trailing" id="xfN-qT-hWG"/>
+            </constraints>
+            <point key="canvasLocation" x="451" y="439"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="tabbar-light" width="320" height="49"/>
+        <image name="vcWebBack" width="30" height="30"/>
+        <image name="vcWebForward" width="30" height="30"/>
+        <image name="vcWebHome" width="30" height="30"/>
+        <image name="vcWebRefresh" width="20" height="20"/>
+    </resources>
+</document>

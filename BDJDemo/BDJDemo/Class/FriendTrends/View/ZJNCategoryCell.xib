@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="category" rowHeight="110" id="KGk-i7-Jjw" customClass="ZJNCategoryCell">
+            <rect key="frame" x="0.0" y="0.0" width="366" height="38"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="366" height="37"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rec_LeftLine" translatesAutoresizingMaskIntoConstraints="NO" id="59f-CG-8I6">
+                        <rect key="frame" x="0.0" y="0.0" width="3" height="37"/>
+                        <color key="backgroundColor" red="0.94509803921568625" green="0.94509803921568625" blue="0.94509803921568625" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="3" id="NnO-PE-bGd"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vtf-Dw-f2K" userLabel="seperator">
+                        <rect key="frame" x="0.0" y="36" width="366" height="1"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="thU-R5-g6z"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="59f-CG-8I6" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="7SB-uU-Yk8"/>
+                    <constraint firstAttribute="trailing" secondItem="vtf-Dw-f2K" secondAttribute="trailing" id="CMN-iY-eFT"/>
+                    <constraint firstItem="vtf-Dw-f2K" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="O0M-Vx-tbm"/>
+                    <constraint firstItem="59f-CG-8I6" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="U7l-cT-G6I"/>
+                    <constraint firstAttribute="bottom" secondItem="59f-CG-8I6" secondAttribute="bottom" id="h87-CE-MDi"/>
+                    <constraint firstAttribute="bottom" secondItem="vtf-Dw-f2K" secondAttribute="bottom" id="kUU-rf-zjQ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="seletedIndicator" destination="59f-CG-8I6" id="3fZ-aK-K33"/>
+            </connections>
+            <point key="canvasLocation" x="285" y="349"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Rec_LeftLine" width="3" height="38"/>
+    </resources>
+</document>

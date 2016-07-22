@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<string>字体大小</string>
+		<string>摇一摇夜间模式</string>
+	</array>
+	<array>
+		<string>清除缓存</string>
+		<string>推荐给朋友</string>
+		<string>帮助</string>
+		<string>当前版本</string>
+		<string>关于我们</string>
+		<string>隐私政策</string>
+		<string>打分支持不得姐!</string>
+	</array>
+</array>
+</plist>

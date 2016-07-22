@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="103" id="KGk-i7-Jjw" customClass="ZJNRecommendTagCell">
+            <rect key="frame" x="0.0" y="0.0" width="398" height="103"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="398" height="102"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WUT-de-s6M">
+                        <rect key="frame" x="70" y="26" width="247" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yaf-n0-9JV">
+                        <rect key="frame" x="327" y="39" width="51" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="BYY-DN-kJG"/>
+                            <constraint firstAttribute="width" constant="51" id="kwn-r6-10B"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <state key="normal" title="+ 订阅" backgroundImage="FollowBtnBg">
+                            <color key="titleColor" red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                        <state key="highlighted" title="+ 订阅" backgroundImage="FollowBtnClickBg">
+                            <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kZ9-Ww-YG9">
+                        <rect key="frame" x="70" y="60" width="33" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="UOS-su-FCv">
+                        <rect key="frame" x="10" y="26" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="Ojj-Df-Mwb"/>
+                            <constraint firstAttribute="height" constant="50" id="oAx-up-Kz8"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="Yaf-n0-9JV" secondAttribute="trailing" constant="20" id="10H-x0-lDe"/>
+                    <constraint firstItem="WUT-de-s6M" firstAttribute="top" secondItem="UOS-su-FCv" secondAttribute="top" id="Dhc-a5-5CT"/>
+                    <constraint firstItem="Yaf-n0-9JV" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="PUk-tn-WbV"/>
+                    <constraint firstItem="UOS-su-FCv" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Uys-Ad-LzN"/>
+                    <constraint firstItem="kZ9-Ww-YG9" firstAttribute="bottom" secondItem="UOS-su-FCv" secondAttribute="bottom" id="VGY-RN-Xug"/>
+                    <constraint firstItem="Yaf-n0-9JV" firstAttribute="leading" secondItem="WUT-de-s6M" secondAttribute="trailing" constant="10" id="WiN-MU-phj"/>
+                    <constraint firstItem="WUT-de-s6M" firstAttribute="leading" secondItem="UOS-su-FCv" secondAttribute="trailing" constant="10" id="cms-Ve-Bd1"/>
+                    <constraint firstItem="kZ9-Ww-YG9" firstAttribute="leading" secondItem="WUT-de-s6M" secondAttribute="leading" id="mtu-pI-aBt"/>
+                    <constraint firstItem="UOS-su-FCv" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="sLr-Fk-uA5"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="imageListView" destination="UOS-su-FCv" id="GFB-kC-dUf"/>
+                <outlet property="subNumberLabel" destination="kZ9-Ww-YG9" id="VwG-hK-glC"/>
+                <outlet property="themeNameLabel" destination="WUT-de-s6M" id="1P0-Eu-g8y"/>
+            </connections>
+            <point key="canvasLocation" x="243" y="283.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="FollowBtnBg" width="51" height="25"/>
+        <image name="FollowBtnClickBg" width="51" height="25"/>
+    </resources>
+</document>
