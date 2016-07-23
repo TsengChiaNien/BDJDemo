@@ -1,5 +1,5 @@
 # BDJ App Demo
-A demo of BDJ app
+这是本人学习OC编程的模仿的app, 由于API的限制, app没有实现登录, 分享和收藏功能. 欢迎各位指正教导, Issues我或者Email:zengjianian@hotmail.com
 
 ##Screen Shot
 ![image](https://github.com/TsengChiaNien/BDJDemo/raw/master/ScreenShot/1.jpg)
