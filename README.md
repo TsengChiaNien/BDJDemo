@@ -25,7 +25,7 @@
   - pop, 发布界面的动画
   - M13ProgressSuite, 帖子图片缓存时的进度条
   - FreeStreamer, 处理音乐流媒体
-  - NJKWebViewPorgress, 模拟浏览器进度条
+  - NJKWebViewProgress, 模拟浏览器进度条
 - 在demo运行之前, 需要将仓库的ImageResource压缩包的图片拖进项目中
 
 ##demo的一些处理
